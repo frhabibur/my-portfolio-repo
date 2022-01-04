@@ -5,12 +5,14 @@ body{
 h1{
     font-size:50px;
 }
-#name-color{
+h2{
+    font-size:40px;
+}
+.orange-color{
     color:orange;
 }
-section{
+.flexible-layout{
     display:flex;
-    
 }
 .half-width{
     width:50%;
@@ -21,7 +23,6 @@ section{
 }
 .half-width p{
     font-size:15px;
-    
     margin-bottom:30px;
 }
 .hire-btn{
@@ -32,7 +33,6 @@ section{
     border-radius:5px;
     transition:0.5s linear;
     margin-top:200px;
-    
 }
 .hire-btn:hover{
     
@@ -44,7 +44,6 @@ section{
     background-repeat: no-repeat;
     margin-bottom: 40px;
 }
-
 /*********************************DREAM SECTION START**********************************/
 .dream-big{
     background-image: url(../images/dream-bg.png);
@@ -54,3 +53,40 @@ section{
     background-position: right;
 }
 /*********************************DREAM SECTION END**********************************/
+/*********************************Experience SECTION start**********************************/
+.experience{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience h1{
+    margin-bottom:10px;
+}
+.experience-item{
+    box-shadow:10px 10px 40px grey;
+    width:40%;
+    margin:5%;
+    padding: 30px;  
+    border-radius: 5px; 
+}
+.experience-item p{
+    margin-bottom: 100px;
+    font-size: 15px;
+}
+.margin-top{
+    margin-top:-40px;
+} 
+#full-stack-dev{
+    border-left:8px solid ;
+    border-image:linear-gradient(#e28272, #ff6347);
+    border-image-slice: 1;
+}
+#web-dev{
+    border-left:8px solid ;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+/*********************************Experience SECTION end**********************************/
+footer p{
+    text-align: center;
+}
